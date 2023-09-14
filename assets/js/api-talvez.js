@@ -26,3 +26,4 @@ function funcaoApiTalvez () {
         ]
 }
 module.exports = {funcaoApiTalvez};
+console.log(funcaoApiTalvez);
