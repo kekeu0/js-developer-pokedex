@@ -100,7 +100,7 @@
 }
 
 .abilities  {
-    background:#e3ffd5;
+    background-color:#f1ffebdb;
     padding: .36rem;
     margin: .99rem;
     margin-top: .66rem;
@@ -122,21 +122,14 @@
     margin-top: -.3rem;
 }
 
-.at{
-    display: flex;
+.pokemon .at{
+    text-align:center;
     margin-bottom: -4rem ; 
-    margin-left: -2rem;
+    margin-left: -11rem;
     font-size: .75rem;
+
 }
       
-.height{
-    text-align: center;
-    margin-right: .5rem;
-}
-.weight{
-    text-align: center;
-    margin-left: .5rem;
-}
 
 .pokemon .detail {
     flex-direction: row;

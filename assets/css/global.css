@@ -3,6 +3,13 @@
     box-sizing: border-box;
 }
 
+.pokedex{
+    display: flex;
+    justify-content: center;
+    height: 7rem;
+    margin:1rem;
+}
+
 body {
     background-color: #f6f8fc;
 }
@@ -15,7 +22,7 @@ body {
 }
 
 @media screen and (min-width: 992px) {
-    .content {
+    .content .pokedex {
         max-width: 992px;
         height: auto;
         margin: 1rem auto;
